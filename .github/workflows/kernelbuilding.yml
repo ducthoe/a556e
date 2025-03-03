@@ -16,6 +16,6 @@ jobs:
           config: cas_defconfig
           arch: arm64
           aosp-gcc: false
-          aosp-clang: true
+          aosp-clang: false
           android-version: 14
           aosp-clang-version: r487747c
