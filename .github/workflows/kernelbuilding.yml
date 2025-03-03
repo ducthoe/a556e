@@ -11,8 +11,8 @@ jobs:
       - name: Build
         uses: dabao1955/kernel_build_action@main
         with:
-          kernel-url: https://android.googlesource.com/kernel/manifest
-          kernel-branch: common-android14-6.1
+          kernel-url: https://github.com/ducthoe/android_kernel_samsung_a556b
+          kernel-branch: master
           config: cas_defconfig
           arch: arm64
           aosp-gcc: true
